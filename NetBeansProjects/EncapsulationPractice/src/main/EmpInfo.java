@@ -17,6 +17,7 @@ public class EmpInfo {
         obj.setEmpID(101);
         obj.setEmpDesg("HR");
         
+        //Show the info using get method
         System.out.println("Employee Name: "+obj.getEmpName());
         System.out.println("Employee ID: "+obj.getEmpID());
         System.out.println("Employee Designation: "+obj.getEmpDesg());
