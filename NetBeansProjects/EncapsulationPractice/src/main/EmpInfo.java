@@ -12,7 +12,7 @@ package main;
 public class EmpInfo {
     public static void main(String[] args) {
         EncapDemo obj=new EncapDemo();
-        
+        //set the value to assign...
         obj.setEmpName("Jewel Hasan");
         obj.setEmpID(101);
         obj.setEmpDesg("HR");
