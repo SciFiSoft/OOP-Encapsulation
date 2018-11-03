@@ -20,7 +20,7 @@ public class Subclass extends ParentClass{
     
     public static void main(String[] args) {
        Subclass obj=new Subclass(); // refererence type of Subclass and object type Subclass();
-        
+        System.out.println(obj.name);
         System.out.println(obj.designation);
         System.out.println(obj.department);
         System.out.println(obj.subject);

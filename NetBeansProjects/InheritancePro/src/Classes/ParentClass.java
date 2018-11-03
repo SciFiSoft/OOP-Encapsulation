@@ -12,6 +12,7 @@ package Classes;
 public class ParentClass {
     String designation="Lecturer";
     String department="CSE";
+    String name="Emdad";
     
     public void does(){
         System.out.println("He is now teaching...");
