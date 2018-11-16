@@ -9,7 +9,7 @@ package Interface;
  *
  * @author nidhro
  */
-public class Demo implements MyInterface {
+public class Demo implements MyInterface2 {
 
     public void myMethod1(){
         System.out.println("Method 1 is called");
@@ -20,8 +20,10 @@ public class Demo implements MyInterface {
     }
     public static void main(String[] args) {
      //Reference type is MyInterface
-        MyInterface obj=new Demo();
+      MyInterface obj=new Demo();
       obj.myMethod1();
-      obj.myMethod2();
+      
+      MyInterface2 obj2= new Demo();
+      obj2.myMethod2();
     }
 }

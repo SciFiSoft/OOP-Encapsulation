@@ -9,8 +9,6 @@ package Interface;
  *
  * @author nidhro
  */
-public interface MyInterface {
-
-public void myMethod1();
-
+public interface MyInterface2 extends MyInterface {
+    public void myMethod2();
 }
