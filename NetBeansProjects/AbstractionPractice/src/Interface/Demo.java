@@ -19,7 +19,8 @@ public class Demo implements MyInterface {
         
     }
     public static void main(String[] args) {
-      Demo obj=new Demo();
+     //Reference type is MyInterface
+        MyInterface obj=new Demo();
       obj.myMethod1();
       obj.myMethod2();
     }
