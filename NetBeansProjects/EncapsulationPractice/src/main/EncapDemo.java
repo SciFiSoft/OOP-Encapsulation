@@ -10,30 +10,34 @@ package main;
  * @author nidhro
  */
 public class EncapDemo {
+
     private String empName;
     private int empID;
     private String empDesg;
-    
-    public String getEmpName(){
-        return empName;  
+
+    public String getEmpName() {
+        return empName;
     }
-    
-    public int getEmpID(){
-        return empID;  
+
+    public int getEmpID() {
+        return empID;
     }
-    
-    public String getEmpDesg(){
-        return empDesg; 
+
+    public String getEmpDesg() {
+        return empDesg;
     }
-    public void setEmpName(String newvalue){
-        empName=newvalue;
+
+    public void setEmpName(String newvalue) {
+        empName = newvalue;
     }
-    public void setEmpID(int newValue){
-        empID=newValue;
-        
+
+    public void setEmpID(int newValue) {
+        empID = newValue;
+
     }
-    public void setEmpDesg(String newValue){
-        empDesg=newValue;
-    }  
-    
+
+    public void setEmpDesg(String newValue) {
+        empDesg = newValue;
+    }
+
 }
